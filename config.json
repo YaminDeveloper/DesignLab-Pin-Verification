@@ -1,10 +1,23 @@
 {
-  "dialogTitle": "DesignLab Official",
+  "dialogTitle": "DesinLab Official",
   "apiKey": "c13a6be54a41dc819547c7f6ce91d96242de3428",
-  "longUrl": "https://pinverification.netlify.app/verify",
   "apiDomain": "arlinks.in",
-  "joinUsUrl": "https://t.me/DesignLabOfficialChat",
-  "tutorialUrl": "https://youtube.com/shorts/XBhxUikg0Jg?si=Def3NBjNS0t3h8xd",
-  "verificationDurationHours": 6,
-  "firebaseDbUrl": "https://pin-verify-1aa88-default-rtdb.asia-southeast1.firebasedatabase.app"
+  "firebaseDbUrl": "https://pin-verify-1aa88-default-rtdb.asia-southeast1.firebasedatabase.app",
+  
+  "verification": {
+    "longUrl": "https://pinverification.netlify.app/verify",
+    "useHours": true,
+    "durationHours": 6,
+    "durationMinutes": 5
+  },
+
+  "links": {
+    "joinUs": "https://t.me/DesignLabOfficialChat",
+    "contact": "https://t.me/GG_YAMIN",
+    "tutorial": "https://youtube.com/shorts/XBhxUikg0Jg?feature=share"
+  },
+
+  "expireSystem": {
+    "enabled": false
+  }
 }
